@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>布局</title>
+	<style>
+  html{
+      font:normal normal 20px "Microsoft soft","sans.serif";
+      color:#333;
+    }
+    body,ul,ol,dl{
+      margin:0;
+      padding:0;
+    }
+    ul,ol{
+      list-style: none;
+    }
+    a{
+      color:#333;
+      text-decoration: none;
+    }
+	.headerup{
+		height: 10px;
+		background-color: #7fffd4;
+	}
+	.header{
+       height:25px;
+       background-color: #cccccc;
+	}
+	.info{
+		 height:10px;
+		 background-color: #ffa500;
+	}
+	.info .yi{
+		width: 160px;
+		height: 10px;
+		background-color: #ff4500;
+		float: left;
+		margin-left: 120px;
+	}
+	.info .er{
+		width: 240px;
+		height: 10px;
+		background-color: #ff4500;
+		float: left;
+		margin-left: 60px;
+	}
+	.info .san{
+		width: 240px;
+		height: 10px;
+		background-color: #ff4500;
+		float: left;
+		margin-left: 120px;
+	}
+	.info .si{
+		width: 80px;
+		height: 10px;
+		background-color: #ff4500;
+		float: left;
+		margin-left: 60px;
+	}
+	.info .first::after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.login{
+		height: 1220px;
+		background-color: #fff;
+	}
+	.wrap1{
+		width:60%;
+		margin: 0 auto;
+	}
+	.login .wrap1>div:nth-child(1){
+		height:180px;
+		background-color: #ffebcd;
+        margin-top: 2px;
+	}
+	.login .wrap1>div:nth-child(2){
+		height: 40px;
+		background-color:#0000ff;
+         margin-top: 2px;
+	}
+	.login .wrap1>div:nth-child(3){
+		height:300px;
+		background-color:#8a2be2;
+         margin-top: 2px;
+	}
+	.login .wrap1>div:nth-child(4){
+		height: 180px;
+		background-color:#ff0000;
+         margin-top: 2px;
+	}
+	.login .wrap1>div:nth-child(5){
+		height: 180px;
+		background-color:#ffff00;
+         margin-top: 2px;
+	}
+	.login .wrap1>div:nth-child(6){
+		height: 180px;
+		background-color:#adff2f;
+         margin-top: 2px;
+	}
+	.login .wrap1>div:nth-child(7){
+		height: 180px;
+		background-color:#87ceeb;
+         margin-top: 2px;
+	}
+    .login .san2>div:nth-child(1){
+        width: 300px;
+        height:280px;      
+        background-color:#8a2be2;
+        float: left;
+        border:1px solid #333;
+        margin-left: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .login .san2>div:nth-child(2){
+        width: 300px;
+        height:280px;      
+        background-color:#8a2be2;
+        float: left;
+        border:1px solid #333;
+        margin-left: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .login .san2>div.three::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .login .san2>div.three>div:first-child{
+        height: 40px;
+        width: 291px;
+        background-color: red;
+        margin: 4px auto;
+    }
+
+
+    .login .san2>div.three>div:nth-child(2){
+        height: 110px;
+        width: 291px;
+        background-color:#fff;
+        margin: 4px auto;
+    }
+    .login .san2>div.three>div.four>div{
+        height:110px;
+        width: 95px;
+        background-color: #fff; 
+        border:1px solid #ccc;  
+        float: left;    
+    }
+    .login .san2>div.three>div.five>div{
+        height:110px;
+        width: 94px;
+        background-color: #fff; 
+        border:1px solid #ccc;  
+        float: left;    
+    }
+    .login .san2>div.three::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .login .san2>div.three>div:last-child{
+        height: 110px;
+        width: 290px;
+        background-color:#fff;
+        margin: 4px auto;
+    }
+    .login .yi2>div:first-child{
+        height: 175px;
+        width: 140px;
+        background-color: #fcfcfc;
+        border:1px solid #ccc;
+        float: left;
+        margin-bottom: 2px;
+    }
+    .login .yi2>div:nth-child(2){
+        height: 180px;
+        width: 230px;
+        background-color: #fff;
+        border:1px solid #ccc;
+        float: left;
+    }
+    .login .yi2 .one>div:first-child{
+        height: 100px;
+        width: 230px;
+        background-color: #cd853f;
+    }
+    .login .yi2 .one>div:last-child{
+        height: 75px;
+        width: 230px;
+        background-color: #00ffff;
+        margin-top: 2px;
+    } 
+    .login .yi2>div:nth-child(3){
+        height: 180px;
+        width: 120px;
+        background-color: #fff;
+        border:1px solid #ccc;
+        float: left;
+    }
+    .login .yi2 .two>div{
+        margin-left: 2px;
+    }
+    .login .yi2 .two>div:first-child{
+        height: 100px;
+        width: 120px;
+        background-color: #9acd32;
+    }
+    .login .yi2 .two>div:last-child{
+        height: 75px;
+        width: 120px;
+        background-color: #0000ff;
+        margin-top: 2px;
+    }
+    .login .yi2>div:last-child{
+        height: 175px;
+        width: 180px;
+        background-color: #ff1493;
+        border:1px solid #ccc;
+        float: left;
+        margin-left: 120px;
+        margin-bottom: 2px;
+    }
+    .login .yi2::after{
+        content: "";
+        display: block;
+        clear: both;
+    } 
+	.wrap{
+		width: 100%;	
+	}
+	.liu{
+		height: 40px;
+		background-color:#cccccc; 
+	}
+	.footer{
+		height: 160px;
+		background-color: #fff;
+	}	
+  .maodian .buju>li:first-child{
+    width: 50px;
+    height: 50px;
+    background-color: #8a2be2;
+    position: fixed;
+    top:200px;
+    right: 60px;
+    font-size: 14px;
+    line-height: 4em;
+    text-align: center;
+    color:#000;
+    list-style: none;
+  }	
+  .maodian .buju>li:nth-child(2){
+    width: 50px;
+    height: 50px;
+    background-color:red;
+    position: fixed;
+    top:250px;
+    right: 60px;
+    font-size: 14px;
+    line-height: 4em;
+    text-align: center;
+    color:#000;
+    list-style: none;
+  } 
+  .maodian .buju>li:nth-child(3){
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: fixed;
+    top:300px;
+    right: 60px;
+    font-size: 14px;
+    line-height: 4em;
+    text-align: center;
+    color:#000;
+    list-style: none;
+  } 
+  .maodian .buju>li:nth-child(4){
+    width: 50px;
+    height: 50px;
+    background-color: #adff2f;
+    position: fixed;
+    top:350px;
+    right: 60px;
+    font-size: 14px;
+    line-height: 4em;
+    text-align: center;
+    color:#000;
+    list-style: none;
+  } 
+  .maodian .buju>li:nth-child(5){
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    position: fixed;
+    top:400px;
+    right: 60px;
+    font-size: 14px;
+    line-height: 4em;
+    text-align: center;
+    color:#000;
+    list-style: none;
+  } 
+  .maodian .buju>li:nth-child(6){
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    position: fixed;
+    top:450px;
+    right: 60px;
+    font-size: 14px;
+    line-height: 4em;
+    text-align: center;
+    color:#000;
+    list-style: none;
+
+  } 
+	</style>
+</head>
+<body>
+  <div class="container">
+  	 <div class="headerup">
+  	    <div class="wrap">
+  	    	
+  	    </div>
+  	 	
+  	 </div>
+  	 <div class="header">
+  	  <div class="wrap">
+  	    	
+  	    </div>
+  	 	
+  	 </div>
+  	 <div class="info">    
+  	  <div class="wrap">
+  	     <div class="first">
+  	    	<div class="yi"></div>
+  	    	<div class="er"></div>
+  	    	<div class="san"></div>
+  	    	<div class="si"></div>
+  	     </div>
+  	    </div>
+  	 	
+  	 </div>
+  	 <div class="login">
+  	    <div class="wrap">  
+  	      <div class="wrap1">
+  	        <div class="yi2"> 
+              <div></div>
+              <div class="one">
+                  <div></div>
+                  <div></div>
+              </div>
+              <div class="two">
+                  <div></div>
+                  <div></div>
+              </div>
+              <div></div>
+            </div> 	                
+  	    	<div class="er2"></div>
+  	    	<div class="san2" id="san2">          
+  	    		<div class="three">	    	
+                    <div></div>
+                    <div class="four">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="five">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    </div>
+  	    		<div class="six"></div>
+  	    	</div>
+  	    	<div class="si2" id="si2"></div>
+  	    	<div class="wu2" id="wu2"></div>
+  	    	<div class="liu2" id="liu2"></div>
+  	    	<div class="qi2" id="qi2"></div>
+  	      </div>	
+  	    </div>		 	
+  	 </div>
+  	 <div class="liu" id="liu">
+  	  <div class="wrap">
+  	    	
+  	    </div>
+  	 	
+  	 </div>
+  	 <div class="footer">
+  	  <div class="wrap">
+  	    	
+  	    </div>
+  	 	
+  	 </div>
+
+
+  </div>
+  <div class="maodian">
+     <ul class="buju">
+       <li><a href="#san2">紫</a></li>
+       <li><a href="#si2">红</a></li>
+       <li><a href="#wu2">黄</a></li>
+       <li><a href="#liu2">绿黄色</a></li>
+       <li><a href="#qi2">天蓝色</a></li>
+       <li><a href="#liu">浅灰色</a></li>
+     </ul>
+  </div>
+
+
+	
+</body>
+</html>

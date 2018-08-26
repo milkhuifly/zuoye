@@ -1,0 +1,23 @@
+.container{
+	width: 810px;
+	margin:0 auto;
+}
+.header{
+	background-color: red;
+}
+.header::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.header>div{
+	width: 400px;
+	height: 300px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: pink;
+}
+.header>div:nth-child(even){
+	margin-right: 0;
+}

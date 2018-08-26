@@ -1,0 +1,438 @@
+.nav2{
+	 	height: 50px;
+	 	width: 100%;
+	 	background-color: #333;
+	 	position: fixed;
+	 	left: 0;
+	 	top: 0;
+	 }
+	 .daohang{
+	 	height: 50px;
+	 	display: flex;
+	 	justify-content: space-around;
+	 	align-items: center;
+	 }
+	 .daohang>li:first-child{
+	 	margin-left: 150px;
+	 }
+	 .daohang>li:last-child{
+	 	margin-right: 150px;
+	 }
+	  .daohang>li>a{
+          color: #fff;
+	  }
+      .daohang>li:hover>a{
+	    color: #ccc;      
+	  }
+	  .fa{
+	  	font-size: 16px;
+	  	color: #fff;
+	  }
+	  .middle1{
+	    	background:url('./images/m1.png') no-repeat 200px 300px;
+		    background-origin:padding-box;
+	    	width:100%;
+	    	height:600px;
+	    	background-color:#fff;
+	    	top:50px;
+	    	margin-top: 50px; 
+	    	position: relative; 	
+	    }
+	    .middle1>h1{
+	    	font-size: 80px;
+	    	text-align: center;
+	    	line-height: 300px;
+	    }
+	    .middle1>div{
+	    	position: relative;
+	    	font-size: 30px;
+	    	top: -100px;
+	    	left: 600px;
+	    }
+	   .middle1>span.liaojie1>a{
+	    	color:blue;
+	    	position: relative;
+	    	top: -85px;
+	    	left: 550px;
+	    }
+	    .middle1>span.goumai1>a{
+	    	color:blue;
+	    	position: relative;
+	    	top: -85px;
+	    	left: 620px;
+	    }
+	     .middle1>span.liaojie1:hover>a, .middle1>span.goumai1:hover{
+	     	text-decoration: underline blue;
+	     }
+	    .middle2{
+	    	background:url('./images/m2.png') no-repeat 200px 250px;
+		    background-origin:padding-box;
+	    	width:100%;
+	    	height:600px;
+	    	background-color:#fff;
+	    	margin-top: 0; 
+	    		
+	    }
+	    .middle2>h1{
+	    	font-size: 80px;
+	    	text-align: center;
+	    	line-height: 200px;
+	    }
+	    .middle2>div{
+	    	position: relative;
+	    	font-size: 25px;
+	    	top: -55px;
+	    	left: 490px;
+	    }
+	   .middle2>span.liaojie2>a{
+	    	color:blue;
+	    	position: relative;
+	    	top: -40px;
+	    	left: 550px;
+	    }
+	    .middle2>span.goumai2>a{
+	    	color:blue;
+	    	position: relative;
+	    	top: -40px;
+	    	left: 620px;
+	    }
+	     .middle2>span.liaojie2:hover>a, .middle2>span.goumai2:hover{
+	     	text-decoration: underline blue;
+	     }
+      .middle3{
+	    	background:url('./images/m3.png') no-repeat 200px 200px;
+		    background-origin:padding-box;
+	    	width:100%;
+	    	height:600px;
+	    	background-color:#000;
+	    	margin-top: 0; 
+	    		
+	    }
+	     .middle3>h1{
+	    	font-size: 80px;
+	    	text-align: center;
+	    	line-height: 100px;
+	    	color: #fff;
+	    }
+	    .middle3>div{
+	    	position: relative;
+	    	font-size: 25px;
+	    	top: -10px;
+	    	left: 520px;
+	    	color: #fff;
+	    }
+	   .middle3>span.liaojie3>a{
+	    	color:#fff;
+	    	position: relative;
+	    	top: 0;
+	    	left: 550px;
+	    }
+	    .middle3>span.goumai3>a{
+	    	color:#fff;
+	    	position: relative;
+	    	top: 0;
+	    	left: 620px;
+	    }
+	     .middle3>span.liaojie3:hover>a, .middle3>span.goumai3:hover{
+	     	text-decoration: underline #fff;
+	     }
+	    .middle4{
+	    	background-color: #fff;
+	    	display: flex;
+	    	justify-content: center;
+	    	align-items: center;
+	    	
+	    }
+	    .middle4>.left4{
+	    	background:url('./images/m41.png') no-repeat 10px 0;
+		    background-origin:padding-box;
+	    	width:700px;
+	    	height:600px;
+	    	margin-top:10px;
+	    	margin-right: 10px; 	    		
+	    }
+	     .middle4>.right4{
+	    	background:url('./images/m42.png') no-repeat 10px 0;
+		    background-origin:padding-box;
+	    	width:700px;
+	    	height:600px;
+	    	margin-top:10px;
+	    	margin-right: 20px; 	    		
+	    }
+	    .middle5{
+	    	background-color: #fff;
+	    	display: flex;
+	    	justify-content: center;
+	    	align-items: center;
+	    	
+	    }
+	    .middle5>.left5{
+	    	background:url('./images/m51.png') no-repeat 10px 10px;
+		    background-origin:padding-box;
+	    	width:700px;
+	    	height:600px;
+	    	margin-top:10px;
+	    	margin-right: 10px; 	    		
+	    }
+	     .middle5>div.right5{
+	    	background:url('./images/m52.png') no-repeat 40px 200px;
+		    background-origin:padding-box;
+	    	width:700px;
+	    	height:600px;
+	    	margin-top:10px;
+	    	margin-right: 20px; 		
+	    }
+        .right5>h1{
+        	position: relative;
+        	left:250px;
+        	top:60px;
+        }
+         .right5>div{
+        	position: relative;
+        	left:260px;
+        	top:70px;
+        }
+        .right5>span.liaojie5>a{
+	    	color:blue;
+	    	position: relative;
+	    	top: 80px;
+	    	left: 220px;
+	    }
+	    .right5>span.goumai5>a{
+	    	color:blue;
+	    	position: relative;
+	    	top: 80px;
+	    	left: 250px;
+	    }
+	     .right5>span.liaojie5:hover>a, .right5>span.goumai5:hover{
+	     	text-decoration: underline blue;
+	     }
+
+
+	    .middle6{
+	    	background-color: #fff;
+	    	display: flex;
+	    	justify-content: center;
+	    	align-items: center;
+	    	
+	    }
+	    .middle6>.left6{
+	    	background:url('./images/m61.png') no-repeat 40px 45px;
+		    background-origin:padding-box;
+	    	width:700px;
+	    	height:600px;
+	    	margin-top:10px;
+	    	margin-right: 10px; 	    		
+	    }
+	     .middle6>.right6{
+	    	background:url('./images/m62.png') no-repeat 10px 0;
+		    background-origin:padding-box;
+	    	width:700px;
+	    	height:600px;
+	    	margin-top:10px;
+	    	margin-right: 20px; 	    		
+	    }
+	    .footer{
+	    	width: 100%;
+	    	height: 500px;
+	    	background-color: #fff;
+	    	position: relative;
+	    	top: 50px;
+	    	display: flex;
+	    	justify-content: space-around;
+	    	align-items: center;
+	    }
+	    .footer>div.one{
+	    	position: absolute;
+	    	top:50px;
+	    	left: 200px;
+	    	font-size: 12px;
+	    }
+	     .footer>div.one>ul>li{
+	     	line-height: 20px;
+
+	     }
+	     .footer>div.one>ul>li>a{
+	     	line-height: 25px;
+	     	color: gray;
+
+	     }
+	      .footer>div.one>ul>li:first-child>a{
+	      	color: #333;
+	      }
+	    .footer>div.one>ul>li:first-child{
+           font-size: 13px;
+	    }
+	      .footer>div.one>ul>li:first-child:hover>a{
+	      	text-decoration: none;
+	      }
+	     .footer>div.one>ul>li:hover>a{
+	        text-decoration: underline;
+	        color:#333;
+	     }
+	    .footer>div.two{
+	    	position: absolute;
+	    	top:50px;
+	    	left: 400px;
+	    	font-size: 12px;
+	    }
+	    .footer>div.two>ul>li{
+	     	line-height: 20px;
+	     }
+	      .footer>div.two>ul>li>a{
+	     	line-height: 25px;
+	     	color: gray;
+
+	     }
+	      .footer>div.two>ul>li:first-child>a{
+	      	color: #333;
+	      }
+	     .footer>div.two>ul>li:first-child:hover>a{
+	      	text-decoration: none;
+	      }
+	       .footer>div.two>ul>li:first-child{
+           font-size: 13px;
+	    }
+	     .footer>div.two>ul>li:hover>a{
+	        text-decoration: underline;
+	        color:#333;
+	     }
+	    .footer>div.three{
+	    	position: absolute;
+	    	top:50px;
+	    	left: 600px;
+	    	font-size: 12px;
+	    } 
+	     .footer>div.three>ul>li:first-child>a{
+	      	color: #333;
+	      }
+	    .footer>div.three>ul>li{
+	     	line-height: 20px;
+	     }
+	     .footer>div.three>ul>li:first-child{
+           font-size: 13px;
+	    }
+	     .footer>div.three>ul>li>a{
+	     	line-height: 25px;
+	     	color: gray;
+
+	     }
+	     .footer>div.three>ul>li:first-child:hover>a{
+	      	text-decoration: none;
+	      }
+	    .footer>div.three>ul>li:hover>a{
+	        text-decoration: underline;
+	        color:#333;
+	     }
+	    .footer>div.four{
+	    	position: absolute;
+	    	top:50px;
+	    	left: 800px;
+	    	font-size: 12px;
+	    }
+	     .footer>div.four>ul>li:first-child>a{
+	      	color: #333;
+	      }
+	     .footer>div.four>ul>li>a{
+	     	line-height: 20px;
+	     	color: gray;
+
+	     }
+
+	    .footer>div.four>ul>li{
+	     	line-height: 25px;
+	     }
+	     .footer>div.four>ul>li:first-child{
+           font-size: 13px;
+
+	    }
+	     .footer>div.four>ul>li:first-child:hover>a{
+	      	text-decoration: none;
+	      }
+	     .footer>div.four>ul>li:hover>a{
+	        text-decoration: underline;
+	        color:#333;
+	     }
+	    .footer>div.five{
+	    	position: absolute;
+	    	top:50px;
+	    	left: 1000px;
+	    	font-size: 12px;
+	    }
+	    .footer>div.five>ul>li{
+	     	line-height: 20px;
+	     }
+	      .footer>div.five>ul>li>a{
+	     	line-height: 25px;
+	     	color: gray;
+
+	     }
+	      .footer>div.five>ul>li:first-child>a{
+	      	color: #333;
+	      }
+	     .footer>div.five>ul>li:first-child{
+           font-size: 13px;
+	    }
+	     .footer>div.five>ul>li:first-child:hover>a{
+	      	text-decoration: none;
+	      }
+	     .footer>div.five>ul>li:hover>a{
+	        text-decoration: underline;
+	        color:#333;
+	     }	
+
+
+	     .zong>div.liu1>span.liu2{
+	     	font-size: 12px;
+	     	position: relative;
+	     	left: -230px;
+	     	top:150px;	
+	     	color: gray;
+	     } 
+	      .zong>div.liu1{
+	      	display: block;
+	      }
+	    
+	     .zong>div.liu1>span.liu2>span.span1>a,.zong>div.liu1>span.liu2>span.span2>a{
+             color: blue;
+             font-size: 12px;
+	     } 
+	      .zong>div.liu1>span.liu2>span.span1:hover>a, .zong>div.liu1>span.liu2>span.span2:hover>a{
+	      	text-decoration: underline;
+	      } 
+
+
+	       .zong>div.qi1>span.qi2{
+	     	font-size: 12px;
+	     	position: relative;
+	     	left: -230px;
+	     	top:160px;	
+	     	color: gray;
+	     	
+	     } 
+	     .zong>div.qi1>span.qi2>span.span1>a,.zong>div.qi1>span.qi2>span.span2>a, .zong>div.qi1>span.qi2>span.span3>a,.zong>div.qi1>span.qi2>span.span4>a,.zong>div.qi1>span.qi2>span.span5>a{
+             color: #333;
+             font-size: 12px;
+             border-right: 1px solid #ccc;
+
+	     } 
+	      .zong>div.qi1>span.qi2>span.span1:hover>a, .zong>div.qi1>span.qi2>span.span2:hover>a,.zong>div.qi1>span.qi2>span.span3:hover>a, .zong>div.qi1>span.qi2>span.span4:hover>a, .zong>div.qi1>span.qi2>span.span5:hover{
+	      	text-decoration: underline;
+	      }  
+	      .qi1>span>span:nth-last-child(2){
+	      	position: relative;
+	      	left: 396px;
+	      	top: 3px;
+	      } 
+	       .qi1>span>span:nth-last-child(1){
+	       	position: relative;
+	        left:400px; 
+	       }
+
+	      .zong .ba{
+	      	font-size: 12px;
+	     	position: relative;
+	     	left: -230px;
+	     	top:180px;	
+	     	color: gray;
+	      }

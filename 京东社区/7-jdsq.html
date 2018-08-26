@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>	京东社区</title>
+	<link rel="stylesheet" href="./css/common.css">
+	<style>
+		.header{
+           width: 100%;
+           height: 30px;
+           background-color: #e3e4e5;
+	   }
+	   .header .links::after{
+	   	 content: "";
+	   	 display: block;
+	   	 clear: both;
+	   }
+	   .header .links>li{
+	   	 float:left;
+	   	 line-height: 2em;
+		 width: 90px;
+		 height: 30px;
+		 text-align: center;
+		 border-right:1px solid #ccc;	 
+	   }
+
+	   .header .links>li:nth-child(1),.header .links>li:nth-child(2){
+	   	  border-right:none;
+	   	  list-style:square;
+	   }	
+	   .header .links>li:nth-child(1){
+	   	   list-style-image: url('./images/tubiao1.png');
+	   }   
+	   .header .links>li:nth-child(2){
+	   	   list-style-image: url('./images/tubiao2.png');
+	   } 
+
+	    .header .links>li:nth-child(3){
+	    	margin-left: 120px;
+	    	border-right:none;
+	    	margin-right:0;
+	    }
+	    .header .links>li:nth-child(4){
+	    	color: red;
+	    }
+	    .header .links>li>a:hover{
+	    	color: red;
+	    	cursor: pointer;
+	    }
+	    .logo{
+           height: 96px;
+           background-color: #fff
+	    }
+	    .logo .wrap::after{
+           content: "";
+	   	   display: block;
+	   	   clear: both;
+	    }
+	    .logo .logo1,.logo .logo2,.logo .logo3{
+	    	float: left;
+	    }
+	    .logo .logo1{
+	    	margin-right: 200px;
+	    	margin-left: 120px;
+	    }
+	    .logo .logo2{
+	    	margin-top: 30px;
+	    }
+	    .logo .logo3{
+	    	margin-left: 70px;
+	    }
+	    .logo  .logo2>div.sousuo{
+	    	float: left;
+	    	width: 145px;
+	    	border:2px solid red;    	
+	    }
+	    .logo  .logo2>div.wenzi{
+	    	background-color: red;
+	    	float: left;
+	    	width: 70px;
+	    	font-size: 18px;
+	    	color: #fff;
+	    	height: 27px;
+	    	text-align: center;
+	    }
+	    .logo .logo2::after{
+	    	 content: "";
+	   	     display: block;
+	   	     clear: both;
+	    }
+	    .daohang .dao::after{
+	    	 content: "";
+	   	     display: block;
+	   	     clear: both;
+	    }
+	     .daohang{
+             height: 40px;
+             background-color:pink;
+	     }
+	     .daohang .dao{
+	     	width: 100%;
+	     	margin-left: 150px;
+	     }
+
+	    .daohang .dao>li{
+	    	 float:left;
+		   	 line-height:3em;
+			 width: 80px;
+			 height: 30px;
+			 margin-left: 10px;
+			 	 
+	    }
+	    .daohang .dao>li:nth-child(1){
+	    	
+	    	background-color: red;
+	    	height: 40px;
+	    }
+	    .daohang .dao>li>a:hover{
+	    	color: red;
+	    	cursor: pointer;
+	    }
+	    .middle1{
+	    	background:url('./images/middle1.png') no-repeat center;
+		    background-origin:padding-box;
+	    	width:100%;
+	    	height: 499px;
+	    	background-color:#000;
+	    	margin-top: 0;    	
+	    }
+	    .middle2{
+	    	background:url('./images/middle2.png') no-repeat center;
+	    	background-origin: padding-box;
+	    	width: 100%;
+	    	height: 84px;
+	    	background-color: #000;
+	    	margin-top: 0; 
+	    }
+	    .middle3{
+	    	width: 100%;
+	    	height: 700px; 
+	    	background-color: #90c320;
+
+	    }
+	    .middle3 .tupian3{
+	    	background:url('./images/middle3.png') no-repeat center;
+	    	background-origin: padding-box;
+	    	width: 100%;
+	    	height:222px;
+	    }
+	    .middle3 .lv1::after{
+	    	 content: "";
+	   	     display: block;
+	   	     clear: both;
+	    }
+	    .middle3 .lv2::after{
+	    	 content: "";
+	   	     display: block;
+	   	     clear: both;
+	    }
+	    .middle3 .lv1,.middle3 .lv2{
+	    	margin-left: 206px;
+	    }
+
+	    .middle3 .lv1>div{
+	    	float: left;
+	    	width: 180px;
+	    	height: 230px;
+	    	background-color: #fff;
+	    	border:1px solid #ccc;
+	    	margin-right: 6px;
+	    	margin-bottom: 6px;
+
+	    }
+	    .middle3 .lv2>div{
+	    	float: left;
+	    	width: 180px;
+	    	height: 230px;
+	    	background-color: #fff;
+	    	border:1px solid #ccc;
+	    	margin-right: 6px;
+	    }
+
+	    .middle4{
+	    	width: 100%;
+	    	height: 700px; 
+	    	background-color: #0ba29b;
+
+	    }
+	    .middle4 .tupian4{
+	    	background:url('./images/middle4.png') no-repeat center;
+	    	background-origin: padding-box;
+	    	width: 100%;
+	    	height:219px;
+	    }
+	    .middle4 .lan1::after{
+	    	 content: "";
+	   	     display: block;
+	   	     clear: both;
+	    }
+	    .middle4 .lan2::after{
+	    	 content: "";
+	   	     display: block;
+	   	     clear: both;
+	    }
+	    .middle4 .lan1,.middle4 .lan2{
+	    	margin-left: 206px;
+	    }
+
+	    .middle4 .lan1>div{
+	    	float: left;
+	    	width: 180px;
+	    	height: 230px;
+	    	background-color: #fff;
+	    	border:1px solid #ccc;
+	    	margin-right: 6px;
+	    	margin-bottom: 6px;
+
+	    }
+	    .middle4 .lan2>div{
+	    	float: left;
+	    	width: 180px;
+	    	height: 230px;
+	    	background-color: #fff;
+	    	border:1px solid #ccc;
+	    	margin-right: 6px;
+	    }
+	    .middle5{
+	    	width: 100%;
+	    	height: 460px; 
+	    	background-color: red;
+
+	    }
+	    .middle5 .tupian5{
+	    	background:url('./images/middle5.png') no-repeat center;
+	    	background-origin: padding-box;
+	    	width: 100%;
+	    	height: 219px;
+	    	
+	    }
+	    .middle5 .hong::after{
+	    	 content: "";
+	   	     display: block;
+	   	     clear: both;
+	    }
+	    .middle5 .hong{
+	    	margin-left: 206px;
+	    }
+
+	    .middle5 .hong>div{
+	    	float: left;
+	    	width: 180px;
+	    	height: 230px;
+	    	background-color: #fff;
+	    	border:1px solid #ccc;
+	    	margin-right: 6px;
+	    	margin-bottom: 6px;
+
+	    }
+	    .middle6{
+	    	width: 100%;
+	    	height: 460px; 
+	    	background-color:#29a7e2;
+
+	    }
+	    .middle6 .tupian6{
+	    	background:url('./images/middle6.png') no-repeat center;
+	    	background-origin: padding-box;
+	    	width: 100%;
+	    	height: 211px;
+	    	
+	    }
+	    .middle6 .shuilan::after{
+	    	 content: "";
+	   	     display: block;
+	   	     clear: both;
+	    }
+	    .middle6 .shuilan{
+	    	margin-left: 206px;
+	    }
+
+	    .middle6 .shuilan>div{
+	    	float: left;
+	    	width: 180px;
+	    	height: 230px;
+	    	background-color: #fff;
+	    	border:1px solid #ccc;
+	    	margin-right: 6px;
+	    	margin-bottom: 6px;
+
+	    }
+	    .middle7{
+	    	background:url('./images/middle7.png') no-repeat bottom;
+	    	background-origin: border-box;
+	    	width: 100%;
+	    	height: 150px;
+	    	background-color: #000;
+	    	margin-top: 0;
+	    }
+	    .middle .zi>li{
+           list-style: square;
+	    }
+	    .footer{
+	    	background:url('./images/footer.png') no-repeat center;
+	    	background-origin: border-box;
+	    	width: 100%;
+	    	height: 600px;
+	    	background-color: #eaeaea;
+	    	margin-top: 0;
+	    }
+	   
+	</style>
+	
+</head>
+<body>
+  <div class="container">	
+     <div class="header">
+         <div class="wrap">	
+         	<ul class="links">
+         		<li><a href="#">京东首页</a>
+         		     </li>
+            	<li><a href="#">北京</a></li>                   	
+            	<li><a href="#">你好，请登录</a></li>
+            	<li><a href="#">免费注册</a></li>
+            	<li><a href="#">我的订单</a></li>
+            	<li><a href="#">我的京东</a></li>
+            	<li><a href="#">京东会员</a></li>
+            	<li><a href="#">企业采购</a></li>
+            	<li><a href="#">客户服务</a></li>
+            	<li><a href="#">网站导航</a></li>
+            	<li><a href="#">手机京东</a></li>
+            </ul>         
+         </div>
+     </div>
+     <div class="logo">
+     	<div class="wrap">	
+            <div class="logo1">
+            	<img src="./images/logo.png" alt="">
+            </div>
+            <div class="logo2">
+            	<div class="sousuo"><input type="text" class="text" name="sousuo"></div>
+            	<div class="wenzi">搜索</div>
+            </div>
+            <div class="logo3">
+            	<img src="./images/gwc.png" alt="">
+            </div>
+         </div>
+     </div>
+     <div class="daohang">
+     	<div class="wrap">	
+             <ul class="dao">
+             	<li><a href="#">全部商品分类</a></li>
+            	<li><a href="#">京东服饰</a></li>
+            	<li><a href="#">美妆馆</a></li>
+            	<li><a href="#">超市</a></li>
+            	<li><a href="#">生鲜</a></li>
+            	<li><a href="#">全球购</a></li>
+            	<li><a href="#">闪购</a></li>
+            	<li><a href="#">拍卖</a></li>
+            	<li><a href="#">金融</a></li>
+             </ul>
+         </div>
+     </div>
+     <div class="middle1">
+     	<div class="wrap"></div>	    
+     </div>
+     <div class="middle2">
+     	<div class="wrap"></div>	
+     </div>
+     <div class="middle3">
+     	<div class="wrap">	
+            <div class="tupian3">
+            	
+            </div>
+            <div class="lv1">
+            	<div></div>
+            	<div></div>
+            	<div></div>
+            	<div></div>
+            	<div></div>
+            </div>
+            <div class="lv2">
+            	<div></div>
+            	<div></div>
+            	<div></div>
+            	<div></div>
+            	<div></div>
+            </div>
+         </div>
+     </div>
+     <div class="middle4">
+     	<div class="wrap">	
+             <div class="tupian4">
+            	
+            </div>
+            <div class="lan1">
+            	<div></div>
+            	<div></div>
+            	<div></div>
+            	<div></div>
+            	<div></div>
+            </div>
+            <div class="lan2">
+            	<div></div>
+            	<div></div>
+            	<div></div>
+            	<div></div>
+            	<div></div>
+            </div>
+         </div>
+     </div>
+     <div class="middle5">
+     	<div class="wrap">	
+             <div class="tupian5">
+            	
+            </div>
+            <div class="hong">
+            	<div></div>
+            	<div></div>
+            	<div></div>
+            	<div></div>
+            	<div></div>
+            </div>
+         </div>
+     </div>
+     <div class="middle6">
+     	<div class="wrap">	
+             <div class="tupian6">
+            	
+            </div>
+            <div class="shuilan">
+            	<div></div>
+            	<div></div>
+            	<div></div>
+            	<div></div>
+            	<div></div>
+            </div>
+         </div>
+     </div>
+     <div class="middle7">
+     	<div class="wrap"></div>	
+     </div>
+     <div class="middle8">
+     	<ul class="zi">
+     		<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;因可能存在系统缓存、页面更新导致价格变动异常等不确定性情况出现，如您发现活动商品标价或促销信息有异常，请您立即联系我们，以便我们及时补正。</li> 		
+     	</ul>
+     </div>
+     <div class="footer">	
+        <div class="wrap">	
+            <div class="tupian">
+            	
+            </div>
+         </div>
+     </div>
+  </div>
+	
+</body>
+</html>

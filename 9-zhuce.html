@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册界面</title>
+</head>
+<body>
+ <form action="http://120.78.164.247:8080/login" method="GET" enctype="application/x-www-form-urlencoded">
+  <table>
+  	<tbody>
+  		<tr>
+  			<td size="30px">&nbsp;&nbsp;&nbsp;*用户名:</td>
+  			<td><input type="text" name="user"><small style="color:yellow">&nbsp;由子母、数字“_”组成，以子母开头，长度不少于6位，不多于三十位</small></td>
+  		</tr>
+
+  		<tr>
+  			<td>&nbsp;&nbsp;&nbsp;&nbsp;*密码:</td>
+  			<td><input type="password" name="passwd"><small style="color:yellow">&nbsp;密码长度不少于6位</small></td>
+  		</tr>
+
+  		<tr>
+  			<td>&nbsp;*重复密码:</td>
+  			<td><input type="password" name="passwd1">
+            <small style="color:yellow">&nbsp;
+  			请再次输入密码</small>
+  			</td>
+  		</tr>
+
+  		<tr>
+  			<td>性别:</td>
+  			<td>
+
+  				<label for="gender_male">
+  				<input id="gender_male" type="radio" value="male" name="gender" checked="">男
+
+  			</label>
+
+  			<label for="gender_female">
+  				<input id="gender_female" type="radio" value="female" name="gender" checked="">女
+
+  			</label>
+
+
+  			</td>
+  			
+  		</tr>
+
+
+  	</tbody>
+
+  </table>
+
+  学习课程：
+      <label for="kecheng_Linux">
+       <input  id="kecheng_Linux"  
+               name="kecheng" 
+               value="Linux" 
+               type="checkbox">Linux
+               
+              
+     </label>
+
+        <label for="kecheng_Mysql">
+         <input  id="kecheng_Mysql"  
+                 name="kecheng" 
+                 value="Mysql"
+                  type="checkbox">Mysql
+               
+              
+
+        </label>
+
+          <label for="kecheng_PHP">
+         <input  id="kecheng_PHP" 
+                 name="kecheng" 
+                 value="PHP" 
+                 type="checkbox">PHP
+              
+
+       
+        </label>
+        <label for="kecheng_HTML">
+         <input  id="kecheng_HTML" 
+                 name="kecheng" 
+                 value="HTML" 
+                 type="checkbox">HTML
+              
+
+       
+        </label>
+        <label for="kecheng_JavaScript">
+         <input  id="kecheng_JavaScript" 
+                 name="kecheng" 
+                 value="JavaScript" 
+                 type="checkbox">JavaScript
+              
+
+       
+        </label>
+        <br>
+        地址
+        <select name="dizhi" >
+        	<option value="kunshan">昆山市</option>
+        	<option value="kunshan">苏州市</option>
+
+
+        </select>
+
+        <select name="zhen" >
+        <optgroup label="昆山市">
+        	<option value="kunshan">巴城镇</option>
+        	<option value="kunshan">郭嘉镇</option>
+
+        </optgroup>
+        	
+
+        </select>
+        <br>
+     <tr>
+  			<td size="30px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*邮箱:</td>
+  			<td><input type="" name="user">
+        <small style="color:yellow">&nbsp;请填写正确的常用邮箱地址，以便接收通知、找回密码等</small>
+  			</td>
+  		</tr>
+ <br>
+  		 <tr>
+  			<td size="30px">&nbsp;*移动电话:</td>
+  			<td><input type="" name="user">
+           <small style="color:yellow">&nbsp;11位数字</small>
+  			</td>
+  		</tr>
+  		<br>
+  		*交友宣言：
+    <textarea name="description" cols="30" rows="10"></textarea>
+    <small style="color:yellow">字符个数不能少于十位</small>
+
+
+    <br>
+<tr >
+	 <input type="reset">
+    <input type="submit">
+
+</tr>
+   
+</form>
+	
+</body>
+</html>
